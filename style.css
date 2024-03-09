@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
