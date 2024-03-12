@@ -1,13 +1,58 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+    font-family: "Madimi One", sans-serif;
+    border: 1px solid #000;
+}
+
+.menu>button {
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 160, 10);
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.logo>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.lista-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
 
 }
-header{
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
+
+.lista-links>li>a {
+    text-decoration: none;
+    color: #000;
+}
+main{
+    background-image:url(./assets/fundo.jpg);
+    background-size:cover;
+    height: 900px;
 }
