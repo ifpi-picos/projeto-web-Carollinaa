@@ -5,6 +5,8 @@
     margin: 0px;
     box-sizing: border-box;
     /* border: 1px solid #000; */
+    /* font-family: "Madimi One", sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu {
@@ -13,8 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 100px;
-    font-family: "Madimi One", sans-serif;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .menu>button {
