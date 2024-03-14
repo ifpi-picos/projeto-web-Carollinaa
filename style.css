@@ -51,31 +51,37 @@
     text-decoration: none;
     color: #000;
 }
-main{
+
+main {
     display: flex;
     align-items: center;
-    background-image:url(./assets/fundo.jpg);
-    background-size:cover;
+    background-image: url(./assets/fundo.jpg);
+    background-size: cover;
     height: 100vh;
-    
-    
-}
-.container{
-   background-color: #fff;
-   /* width: 40%; */
-   margin: 100px;
-   
+
 
 }
-.container > h1{
+
+.container {
+    background-color: #fff;
+    /* width: 50%;  */
+    margin: 100px;
+
+
+}
+
+.container>h1 {
     font-size: 45px;
     padding: 30px;
 }
-.container > p{
+
+.container>p {
     padding-left: 30px;
     font-weight: bold;
 }
-.cidade, .bairro{
+
+.cidade,
+.bairro {
     border: #ddd solid 1px;
     margin: 30px;
     display: flex;
@@ -83,28 +89,32 @@ main{
     flex-direction: column;
     padding: 20px;
 }
-.container > div > input, .container > div > input:focus{
+
+.container>div>input,
+.container>div>input:focus {
     width: 100%;
     border: none;
     outline: none;
 }
-.valor{
+
+.valor {
     border: #ddd solid 1px;
     margin: 30px;
     display: flex;
     gap: 15px;
     flex-direction: column;
     padding: 20px;
-    float:right;
+    float: right;
     width: 350px;
 }
-.quarto{
+
+.quarto {
     border: #ddd solid 1px;
     margin: 30px;
     display: flex;
-    gap: 15px; 
+    gap: 15px;
     flex-direction: column;
     padding: 20px;
-    float:left;
+    float: left;
     width: 350px;
 }
