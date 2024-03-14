@@ -52,7 +52,59 @@
     color: #000;
 }
 main{
+    display: flex;
+    align-items: center;
     background-image:url(./assets/fundo.jpg);
     background-size:cover;
-    height: 900px;
+    height: 100vh;
+    
+    
+}
+.container{
+   background-color: #fff;
+   /* width: 40%; */
+   margin: 100px;
+   
+
+}
+.container > h1{
+    font-size: 45px;
+    padding: 30px;
+}
+.container > p{
+    padding-left: 30px;
+    font-weight: bold;
+}
+.cidade, .bairro{
+    border: #ddd solid 1px;
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 20px;
+}
+.container > div > input, .container > div > input:focus{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.valor{
+    border: #ddd solid 1px;
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 20px;
+    float:right;
+    width: 350px;
+}
+.quarto{
+    border: #ddd solid 1px;
+    margin: 30px;
+    display: flex;
+    gap: 15px; 
+    flex-direction: column;
+    padding: 20px;
+    float:left;
+    width: 350px;
 }
