@@ -22,7 +22,7 @@
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Ajuda</a></li>
             </ul>
-            <button>ENTRAR</button>
+            <button>Entrar</button>
         </nav>
     </header>
 
@@ -38,22 +38,24 @@
                 <h2> <ion-icon name="home-outline"></ion-icon> Bairro</h2>
                 <input type="text" placeholder="Busque por bairro">
             </div>
-            <div class="valor">
-
-                <h2> <ion-icon name="cash-outline"></ion-icon> Valor total até</h2>
-                <input type="text" placeholder="Escolha o valor">
+            <div class="lado_a_lado">
+                <div class="quarto">
+                    <h2> <ion-icon name="bed-outline"></ion-icon> Quartos</h2>
+                    <input type="text" placeholder="Número de quartos">
+                </div>
+                <div class="valor">
+                    <h2> <ion-icon name="cash-outline"></ion-icon> Valor total até</h2>
+                    <input type="text" placeholder="Escolha o valor">
+                </div>
+                
             </div>
-            <div class="quarto">
-                <h2> <ion-icon name="bed-outline"></ion-icon> Quartos</h2>
-                <input type="text" placeholder="Número de quartos">
-            </div>
+            <button>Buscar</button>
         </div>
     </main>
 
     <footer>
         <div id="rodape">
             <div id="rodape_contato">
-                <h1> logo</h1>
                 <p>Nos acompanhe nas redes sociais</p>
                 <div id="rodape_rede_social">
                     <a href="#" class="rodape_link" id="instagram">
@@ -64,15 +66,14 @@
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
 
-                    <a href="#" class="rodape_link" id="youtube">
-                        <ion-icon name="logo-youtube"></ion-icon>
+                    <a href="#" class="rodape_link" id="whatsapp">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
                     </a>
                 </div>
             </div>
             <ul class="rodape_list">
-                <li>
                     <h3>Blog</h3>
-                </li>
+                
                 <li>
                     <a href="#">Casas</a>
                 </li>
@@ -84,9 +85,7 @@
                 </li>
             </ul>
             <ul class="rodape_list">
-                <li>
                     <h3>Produto</h3>
-                </li>
                 <li>
                     <a href="#">App</a>
                 </li>
@@ -100,14 +99,14 @@
 
             <div>
                 <h3>Fale conosco</h3>
-                <p></p>
+                <div id="entrada">
+                    <input type="Email" id="email">
+                    <button>
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </button>
+                </div>
             </div>
-            <div id="entrada">
-                <input type="Email" id="email">
-                <button>
-                    <ion-icon name="mail-outline"></ion-icon>
-                </button>
-            </div>
+            
         </div>
         <div>
             &#169
